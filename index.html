@@ -68,6 +68,7 @@
 		};
 		const krill_latin = (str)=>{
 			return str
+			.replace(/Ы/g, 'i').replace(/ы/g, 'i')
 			.replace(/я/g, 'ya').replace(/Я/g, 'Ya')
 			.replace(/ё/g, 'yo').replace(/Ё/g, 'Yo')
 			.replace(/ў/g, "o'").replace(/Ў/g, "O'")
